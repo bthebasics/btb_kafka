@@ -85,3 +85,15 @@ Delete index
 DELETE: /twitter
 ```
 
+Maven config for elasticSearch : 
+
+https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-high-level-client/6.5.4
+
+```shell
+// https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-high-level-client
+libraryDependencies += "org.elasticsearch.client" % "elasticsearch-rest-high-level-client" % "6.5.4"
+
+```
+
+
+
