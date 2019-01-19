@@ -1,4 +1,6 @@
-# Consumer Properties
+[^]: 
+
+#  ![](https://i.ibb.co/3psYF7z/btb-logo-mini2.jpg)Consumer Properties
 
 ### delivery semantics
 
