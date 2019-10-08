@@ -66,5 +66,20 @@ C:\Users\Swagger\Desktop\Document Storage\Technical\cmder
 λ kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic first_topic --group console-consumer-36825
 and its showing up
 hey adding some more
+
+https://gpdb.docs.pivotal.io/5110/greenplum-kafka/load-json-example.html
+
+kafkahost$ $KAFKA_INSTALL_DIR/bin/kafka-console-producer.sh \
+    --broker-list localhost:9092 \
+    --topic topic_json_gpkafka < sample_data.json
+
+
+kafkahost$ $KAFKA_INSTALL_DIR/bin/kafka-console-consumer.sh \
+    --bootstrap-server localhost:9092 --topic topic_json_gpkafka \
+    --from-beginning
+
+Cheatsheet
+https://gist.github.com/sahilsk/d2a6ec384f5f2333e3fef40a581a97e1    
+
 ```
 
